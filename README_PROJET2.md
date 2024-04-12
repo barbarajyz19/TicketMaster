@@ -1,4 +1,4 @@
-### PROJET 2 - SHOWTIME
+### PROJET 2 - SHOWTIME - LICENCE 3
 
 * auteur : Barbara JOYEZ
 
@@ -6,35 +6,35 @@
 
 1- Cloner le depot dans votre espace en effectuant :
 ```
-git clone git@gitlab-etu.fil.univ-lille.fr:barbara.joyez.etu/jsfs-tp-barbarajoyez.git
+git@github.com:barbarajyz19/TicketMaster.git
 ```
 
-2- Placez vous dans votre terminal au niveau jsfs-tp-barbarajoyez/showtime/client/ et effectuez :
+2- Placez vous dans votre terminal au niveau TicketMaster/client/ et effectuez :
 ```
 npm install
 ``` 
 
-3- Puis toujours dans jsfs-tp-barbarajoyez/showtime/client/ :
+3- Puis toujours dans TicketMaster/client/ :
 ```
 npm run build 
 ```
 
-4- Dans un nouveau terminal placez vous maintenant au niveau jsfs-tp-barbarajoyez/showtime/server/ et effectuez :
+4- Dans un nouveau terminal placez vous maintenant au niveau TicketMaster/server/ et effectuez :
 ```
 mongod --dbpath mongo 
 ```
 
-5- Dans un nouveau terminal placez vous au niveau jsfs-tp-barbarajoyez/showtime/server/ et effectuez :
+5- Dans un nouveau terminal placez vous au niveau TicketMaster/server/ et effectuez :
 ```
 npm install 
 ```
 
-6- Effectuez cette commande dans jsfs-tp-barbarajoyez/showtime/server/ pour importer les spectacles de la base :
+6- Effectuez cette commande dans TicketMaster/server/ pour importer les spectacles de la base :
 ```
 mongoimport --db allBase --collection show --file ./misc/show.json
 ```
 
-7- Maintenant lancez le server avec la commande toujours au niveau jsfs-tp-barbarajoyez/showtime/server/ :
+7- Maintenant lancez le server avec la commande toujours au niveau TicketMaster/server/ :
 ```
 nodemon 
 ```

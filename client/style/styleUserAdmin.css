@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#data {
+    background-color: #fff;
+    width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#data div#struct {
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+
+div#spec, div#newShow {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(80, 124, 140);
+}
+
+#userlogin, #userpassword, #username {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#handleAccount, #controls, #welcome {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.deleteTicket, button.cancel, button.edit {
+    padding: 7px 15px;
+    float: right;
+}
+
+button.addTicket {
+    padding: 7px 11px;
+    float: right;
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+#disconnect {
+    text-align: center;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+
+div#spec div#spectacle-info:nth-child(odd), div#newShow div#ticket-info:nth-child(odd) {
+    color: rgb(0, 0, 0);
+    background-color: white; 
+}
+
+div#spec div#spectacle-info:nth-child(even), div#newShow div#ticket-info:nth-child(even) {
+    color: rgb(0, 0, 0);
+    background-color: #d1d1d1; 
+}
+
+div#all, div#allTickets {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+
+}
+
+#nbTicket {
+    color :rgb(51, 96, 179)
+}
+
+#descShow {
+    width: 80%; 
+}
+
+
+#all, #allTickets {
+    display: flex;
+    flex-direction: column;
+}
+
+.spectacle-info, .ticket-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spectacle-info button.cancel, .ticket-info button.deleteTicket  {
+    margin-left: 10px; 
+
+}
+
